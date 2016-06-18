@@ -16,7 +16,7 @@ namespace wcfservices
     public class Service1 : IService1
     {
         
-        public void storeData(string name, string email
+        public void storeData(string name, string email)
         {
             //string connectionString = "Server=tcp:hari123.database.windows.net,1433;Data Source=hari123.database.windows.net;Initial Catalog=hari1234;Persist Security Info=False;User ID={your_username};Password={your_password};Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             string connectionString = "Server=tcp:hari123.database.windows.net,1433;Data Source=hari123.database.windows.net;Initial Catalog=hari123;Persist Security Info=False;User ID={saihari.adabala};Password={0!@@###Aa};Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
